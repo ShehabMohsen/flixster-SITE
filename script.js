@@ -11,7 +11,7 @@ const MORE_BTN = document.querySelector("#more-btn")
 
 
 // API key and URLs
-const API_KEY = "e317087c698363ab6080989433dc3835";
+const API_KEY = "";
 const URL =  `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=en-US&page=1`;
 const IMG_PREFIX = "https://image.tmdb.org/t/p/w500/"
 
