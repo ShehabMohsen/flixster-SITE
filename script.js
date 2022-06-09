@@ -11,9 +11,9 @@ const MORE_BTN = document.querySelector("#more-btn")
 
 
 // API key and URLs
-const API_KEY = "";
+const API_KEY = "e317087c698363ab6080989433dc3835";
 const URL =  `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=en-US&page=1`;
-const IMG_PREFIX = "https://image.tmdb.org/t/p/w500/"
+const IMG_PREFIX = "https://image.tmdb.org/t/p/w300/"
 
 var page = 1;
 
@@ -37,8 +37,8 @@ async function getMoreMovies(url){
     dataArray.forEach(element => {    
         if (element.backdrop_path !=null){
             moviesAREA.innerHTML += `
-            <h2> ${element.original_title} </h2>
-            <img src = "${IMG_PREFIX + element.backdrop_path}" alt = "movie image" />
+            <h3> ${element.original_title} </h3>
+            <img src = "${IMG_PREFIX + element.poster_path}" alt = "movie image" />
             <p> ${element.vote_average} </p>
             `
         } 
@@ -55,9 +55,11 @@ function displayMovies(responseData){
     dataArray.forEach(element => {    
         if (element.backdrop_path !=null){
             moviesAREA.innerHTML += `
-            <h2> ${element.original_title} </h2>
-            <img src = "${IMG_PREFIX + element.backdrop_path}" alt = "movie image" />
+            <div class = "movie-poster">
+            <h3> ${element.original_title} </h3>
+            <img src = "${IMG_PREFIX + element.poster_path}" alt = "movie image" />
             <p> ${element.vote_average} </p>
+            </div>
             `
         } 
     });
