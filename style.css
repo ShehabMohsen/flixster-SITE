@@ -1,6 +1,7 @@
 .body {
     margin-top: 0%;
     margin-left: 0%;
+    background-color: black;
 }
 
 .title-region {
@@ -38,28 +39,32 @@
 }
 
 .container {
-    position: static;
+    padding-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
+    align-items: auto;
+    align-content: start;
 }
 
 .movie-poster{
-
-    background-color: #f5d0b0;
-    color: #783232;
-    margin: 30px;
-    display: inline-block;
+    flex: 0 0 auto;
+    background-color: #783232;
+    color: #f5d0b0;
+    padding: 10px;
+    margin: 10px;
     max-width: 300px;
+    text-align: center;
 }
 
 img.movie-image{
     border-radius: 3px;
 }
 
-.movie-title {
-    margin-left: 10px;
-}
 .movie-rating {
-    margin-left: 10px;
     font-weight: bold;
 }
 
