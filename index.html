@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Flixster</title>
   </head>
-  <body>
-    <div>
+  <body class="body">
+    <div class="title-region">
+      <label id="btn-label" for="movie-input"> Flixster </label>
       <form id="search-form">
-        <label id="btn-label" for="movie-input"> <h1>Flixster</h1></label>
         <input
           id="movie-input"
           type="text"
@@ -22,8 +23,8 @@
         <button class="btn" id="current-btn">movies showing today</button>
       </form>
     </div>
-
-    <div id="movies-area">
+    <!-- where movies will populate -->
+    <div class="container" id="movies-area">
       <p>place holder text for movies</p>
     </div>
 

@@ -1,1 +1,77 @@
+.body {
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.title-region {
+    position: fixed;
+    background-color: #783232;
+    width: 100%;
+    padding: 10px;
+}
+
+.title-region h1 {
+    top: 0%;
+    left: 0%
+}
+#btn-label {
+    color: #f5d0b0;
+    cursor:pointer;
+}
+
+#movie-input {
+    height: 30px;
+    width: 20cm;
+    border-radius: 10px;
+    text-align: center;
+    border-color: black;
+}
+
+.btn {
+    background-color: #f5d0b0;
+    color: #783232;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.container {
+    position: static;
+    justify-content: center;
+}
+
+.movie-poster{
+
+    background-color: #f5d0b0;
+    color: #783232;
+    margin: 30px;
+    display: inline-block;
+    max-width: 300px;
+}
+
+img.movie-image{
+    border-radius: 3px;
+}
+
+.movie-title {
+    margin-left: 10px;
+}
+.movie-rating {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.learn-more{
+    /* display:contents; */
+    color:blue;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
