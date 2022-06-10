@@ -20,7 +20,7 @@
     cursor:pointer;
 }
 
-#movie-input {
+#search-input {
     height: 30px;
     width: 20cm;
     border-radius: 10px;
@@ -38,7 +38,7 @@
 
 }
 
-.container {
+#movies-grid {
     padding-top: 150px;
     margin-left: 100px;
     margin-right: 100px;
@@ -50,7 +50,7 @@
     align-content: start;
 }
 
-.movie-poster{
+.movie-card{
     flex: 0 0 auto;
     background-color: #783232;
     color: #f5d0b0;

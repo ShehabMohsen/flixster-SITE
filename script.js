@@ -3,11 +3,11 @@
 // movies currently playing URL = https://api.themoviedb.org/3/movie/now_playing?api_key=<<api_key>>&language=en-US&page=1
 //search URL = https://api.themoviedb.org/3/search/movie?api_key=<<api_key>>&query=${search_value}q&language=en-US&page=1&include_adult=false
 // Query selector stuff:
-const moviesAREA = document.querySelector("#movies-area");
-const SUBMISSION = document.querySelector("#movie-input");
+const moviesAREA = document.querySelector("#movies-grid");
+const SUBMISSION = document.querySelector("#search-input");
 const BTN = document.querySelector("#submit-btn");
-const CURRENT_BTN = document.querySelector("#current-btn");
-const MORE_BTN = document.querySelector("#more-btn")
+const CURRENT_BTN = document.querySelector("#close-search-btn");
+const MORE_BTN = document.querySelector("#load-more-movies-btn")
 
 
 
@@ -40,7 +40,7 @@ async function getMoreMovies(url){
     dataArray.forEach(element => {    
         if (element.backdrop_path !=null){
             moviesAREA.innerHTML += 
-            `<div class = "movie-poster">
+            `<div class = "movie-card">
                 <img src = "${IMG_PREFIX + element.poster_path}" class = "movie-image" alt = "movie image"/>
                 <div class = "movie-info">
                     <h3 class = "movie-title"> ${element.original_title} </h3>
@@ -62,11 +62,11 @@ function displayMovies(responseData){
     dataArray.forEach(element => {    
         if (element.backdrop_path !=null){
             moviesAREA.innerHTML += 
-            `<div class = "movie-poster">
-                <img src = "${IMG_PREFIX + element.poster_path}" class = "movie-image" alt = "movie image"/>
+            `<div class = "movie-card">
+                <img src = "${IMG_PREFIX + element.poster_path}" class = "movie-poster" alt = "movie image"/>
                 <div class = "movie-info">
                     <h3 class = "movie-title"> ${element.original_title} </h3>
-                    <p class = "movie-rating"> ${element.vote_average}/10 </p>
+                    <p class = "movie-votes"> ${element.vote_average}/10 </p>
 
                     <button id="learn-more"> learn more modal </button>
                 </div>
