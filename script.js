@@ -11,12 +11,7 @@ const MORE_BTN = document.querySelector("#load-more-movies-btn")
 const API_KEY = "e317087c698363ab6080989433dc3835";
 const URL =  `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=en-US&page=1`;
 const IMG_PREFIX = "https://image.tmdb.org/t/p/w300/"
-
 var page = 1;
-
-
-
-
 
 // fetching data and displaying movies:
 
@@ -78,9 +73,12 @@ async function displayMovies(responseData){
                     
                     <!--modal start-->
 
-                    <button type = "button" class = "open-modal" data-open = "modal1" id="learn-more">Open Modal</button>
-                    <div class = "modal" id = "modal1">
-                        <div class = "modal-dialog">
+                    <button class = "open-modal"  id="learn-more">learn more</button>
+                    <div class = "modal" id = "simple-modal">
+                        <div class = "modal-content">
+                            <h2 class="modal-header">
+                            ${dataArray[i].original_title}<span class="close-btn" id="close">&times;</span>
+                            </h2>
                             <p> Release date: ${detailsObj.release_date} <p>
                             <p> Genres: ${getGenres(detailsObj.genres)} <p> 
                             <p> Overview: ${detailsObj.overview} <p>
@@ -170,7 +168,15 @@ function topFunction() {
 }
 
 
+// OPEN MODAL
+
+// open_btn.addEventListener('click', openModal);
+function openModal() {
+    modalContent.style.display = "flex"
+}
+
 // as soon as the window loads:
 window.onload = function(){
     getCurrentMovies()
+
 }

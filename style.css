@@ -118,32 +118,23 @@ img.movie-image{
     border-radius: 5px;
 }
 
-:root {
-    --lightgray: #efefef;
-    --blue: steelblue;
-    --white: #fff;
-    --black: rgba(0, 0, 0, 0.8);
-    --bounceEasing: cubic-bezier(0.51, 0.92, 0.24, 1.15);
-  }
 
-.modal { 
+
+.modal {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    background: var(--black);
+    background-color: rgba(0, 0, 0, 0.7);
     cursor: pointer;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.35s ease-in;
   }
 
-  .modal-dialog {
+  .modal-content {
     position: relative;
     max-width: 800px;
     max-height: 80vh;
@@ -156,16 +147,21 @@ img.movie-image{
 
   /* opening modal */
 
-  .modal {
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.35s ease-in;
-  }
-   
-  .modal.is-visible {
-    visibility: visible;
-    opacity: 1;
-  }
+.close-btn{
+    float: right;
+    font-size: 30px;
+    color: #783232;
+}
 
+.close-btn:hover{
+    color:black;
+    cursor: pointer;
+    text-shadow: #f5d0b0;
+}
 
+.modal-header {
+    background: #f5d0b0;
+    padding: 15px;
+    color: #783232;
 
+}
