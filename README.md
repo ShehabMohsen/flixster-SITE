@@ -50,15 +50,15 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The topics discussed over the course of this week most definetly helped me get through the required features of the project. One thing I felt unprepared to tackle however were the stretch features because there were things asked of us that I never learned or tried before this project such as the modal popup. 
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
 
-Add your response here
+I would like to add more animations to make the site look more modern and interactive. An example would be to have elements react when the cursor is hovering over them. The elements in question are the movie cards, buttons, etc.
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Doing the required features went well for the most part. One thing that definetly did not go as planned as of writing this reflection is that I have not managed to get the popup modal working. One thing I would love to try next time is to experiment with elements such as the search bar, and make hovering over movie cards be responsive to the user. There were great examples of those two that I have seen by my peers. 
 
 ### Open-source libraries used
 
