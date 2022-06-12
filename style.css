@@ -9,16 +9,22 @@
     background-color: #783232;
     width: 100%;
     padding: 10px;
+    padding-left:30px ;
 }
 
-.title-region h1 {
-    top: 0%;
-    left: 0%
-}
 #btn-label {
     color: #f5d0b0;
     cursor:pointer;
+    font-size:50px;
+    margin-right: 0%;
 }
+
+#logo {
+    padding-bottom: 2px;
+    top: 10px;
+    position: relative;
+}
+
 
 #search-input {
     height: 30px;
@@ -35,7 +41,25 @@
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
+    justify-content: center;
 
+}
+
+.btn:hover{
+    background-color: #783232;
+    color: #f5d0b0;
+}
+/* for both the more button and the back to top */
+#btn-loc{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#scroll-up{
+    display: none;
 }
 
 #movies-grid {
@@ -68,9 +92,11 @@ img.movie-image{
     font-weight: bold;
 }
 
-.learn-more{
+/* open modal button id */
+
+#learn-more{
     /* display:contents; */
-    color:blue;
+    color:#f5d0b0;
     background-color: transparent;
     border-color: transparent;
     font-weight: bold;
@@ -79,4 +105,67 @@ img.movie-image{
     text-decoration: underline;
     cursor: pointer;
 }
+
+
+/* modal styling */
+
+.open-modal {
+    font-weight: bold;
+    background: var(--blue);
+    color: var(--white);
+    padding: .75rem 1.75rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+:root {
+    --lightgray: #efefef;
+    --blue: steelblue;
+    --white: #fff;
+    --black: rgba(0, 0, 0, 0.8);
+    --bounceEasing: cubic-bezier(0.51, 0.92, 0.24, 1.15);
+  }
+
+.modal { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--black);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+  }
+
+  .modal-dialog {
+    position: relative;
+    max-width: 800px;
+    max-height: 80vh;
+    border-radius: 5px;
+    background: #783232;
+    color: #f5d0b0;
+    overflow: auto;
+    cursor: default;
+  }
+
+  /* opening modal */
+
+  .modal {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+  }
+   
+  .modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
 
