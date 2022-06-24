@@ -6,6 +6,7 @@ Submitted by: Shehab Mohsen
 
 walkthrough: https://www.loom.com/share/72fc11a0926e4981902347457fe5801d
 
+![](https://github.com/ShehabMohsen/flixster-webdev/blob/main/walk-through.gif)
 Estimated time spent: **30+** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
