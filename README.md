@@ -4,9 +4,7 @@
 
 Submitted by: Shehab Mohsen
 
-walkthrough: https://streamable.com/blyh13
-
-![](https://streamable.com/blyh13)
+walkthrough: https://www.loom.com/share/72fc11a0926e4981902347457fe5801d
 
 Estimated time spent: **30+** hours spent in total
 
