@@ -7,7 +7,7 @@ Submitted by: Shehab Mohsen
 GIF walkthrough:
 ![](https://github.com/ShehabMohsen/flixster-webdev/blob/main/walk-through.gif)
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **30+** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
