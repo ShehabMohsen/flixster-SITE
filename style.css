@@ -94,7 +94,7 @@ img.movie-image{
 
 /* open modal button id */
 
-#learn-more{
+.open-modal{
     /* display:contents; */
     color:#f5d0b0;
     background-color: transparent;
@@ -107,19 +107,9 @@ img.movie-image{
 }
 
 
+
+
 /* modal styling */
-
-.open-modal {
-    font-weight: bold;
-    background: var(--blue);
-    color: var(--white);
-    padding: .75rem 1.75rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-}
-
-
-
 .modal {
     display: none;
     position: fixed;
