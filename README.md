@@ -4,7 +4,7 @@
 
 Submitted by: Shehab Mohsen
 
-GIF walkthrough (https://streamable.com/blyh13):
+walkthrough: https://streamable.com/blyh13
 
 ![](https://streamable.com/blyh13)
 
