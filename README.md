@@ -2,7 +2,10 @@
 
 ## Week 1 Assignment: Flixster
 
-Submitted by: **NAME**
+Submitted by: Shehab Mohsen
+
+GIF walkthrough:
+![](https://github.com/ShehabMohsen/flixster-webdev/blob/main/walk-through.gif)
 
 Estimated time spent: **#** hours spent in total
 
