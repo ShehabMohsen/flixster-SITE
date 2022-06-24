@@ -4,8 +4,9 @@
 
 Submitted by: Shehab Mohsen
 
-GIF walkthrough:
-![](https://github.com/ShehabMohsen/flixster-webdev/blob/main/walk-through.gif)
+GIF walkthrough (https://streamable.com/blyh13):
+
+![](https://streamable.com/blyh13)
 
 Estimated time spent: **30+** hours spent in total
 
