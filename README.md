@@ -4,11 +4,15 @@
 
 Submitted by: Shehab Mohsen
 
-walkthrough: https://www.loom.com/share/72fc11a0926e4981902347457fe5801d
+walkthrough (over 10mb): https://www.loom.com/share/72fc11a0926e4981902347457fe5801d
+walkthrough (6mb): https://streamable.com/blyh13
+
+https://user-images.githubusercontent.com/97417536/175453872-c46d93a0-65e8-4b1c-9ae8-ce9f4445b14c.mov
+
+
+gif walkthrough:
 
 ![](https://github.com/ShehabMohsen/flixster-webdev/blob/main/walk-through.gif)
-Estimated time spent: **30+** hours spent in total
-
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Application Features
