@@ -2,6 +2,7 @@
 
 Submitted by: Shehab Mohsen
 
+### Demo
 https://user-images.githubusercontent.com/97417536/175453872-c46d93a0-65e8-4b1c-9ae8-ce9f4445b14c.mov
 
 ### Application Features
@@ -35,12 +36,6 @@ https://user-images.githubusercontent.com/97417536/175453872-c46d93a0-65e8-4b1c-
 - [ ] Improve the user experience through CSS & animation.
 - [ ] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
 - [ ] Implement anything else that you can get done to improve the app functionality!
-
-### Walkthrough Video
-
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
 
 ### Reflection
 
