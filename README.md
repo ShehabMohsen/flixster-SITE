@@ -1,7 +1,6 @@
 ## Week 1 Assignment: Flixster
 
 Submitted by: Shehab Mohsen
-deployed site: https://shehabmohsen.github.io/
 
 https://user-images.githubusercontent.com/97417536/175453872-c46d93a0-65e8-4b1c-9ae8-ce9f4445b14c.mov
 
