@@ -55,11 +55,3 @@ I would like to add more animations to make the site look more modern and intera
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
 Doing the required features went well for the most part. One thing that definetly did not go as planned as of writing this reflection is that I have not managed to get the popup modal working. One thing I would love to try next time is to experiment with elements such as the search bar, and make hovering over movie cards be responsive to the user. There were great examples of those two that I have seen by my peers. 
-
-### Open-source libraries used
-
-- Add any links to open-source libraries used in your project.
-
-### Shout out
-
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
